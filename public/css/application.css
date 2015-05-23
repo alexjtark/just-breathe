@@ -1,0 +1,92 @@
+body {
+  font-family: 'Aldrich', sans-serif;
+  /* background: url('http://images.fineartamerica.com/images-medium-large/zen-circle-five-peter-cutler.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 52px;
+  background-color: whitesmoke;
+  -webkit-transition: background-color 3s;
+}
+
+body.login {
+  background-color: rgb(63, 63, 63);
+/*  -webkit-transition: background-color 3s;*/
+}
+#get_breathe {
+  position: absolute;
+  left: 0;
+
+  right: 0;
+  top: 50%;
+  font-size: 2em;
+  line-height: 2em;
+  -webkit-transition: display 3s;
+}
+
+input {
+  border: 1px  #999;
+  border-radius: 5px;
+
+  width: 49px;
+}
+
+input#zenbutton{
+  width: 178px;
+  background: rgb(87, 73, 77);
+}
+
+#display {
+  display: none;
+  width: 17%;
+  position: absolute;
+  top: 263px;
+  left: 0;
+  right: 0;
+  /* margin-top: 100px; */
+  margin: auto;
+  padding: 26px;
+  height: 217px;
+  padding-top: 100px;
+  background-color: rgba(2, 76, 11, 0.29);
+  text-align: center;
+  border-radius: 303px;
+  line-height: 2em;
+
+  -webkit-transition: box-shadow 10s;
+
+}
+
+ #display.hover {
+    box-shadow: 35px 35px 100px 500px slategray;
+    -webkit-transition: box-shadow 10s;
+}
+
+#meditation {
+  text-align: center;
+}
+
+#welcome {
+top: 89px;
+color: rgb(63, 63, 63);
+font-size: 2em;
+font-weight: lighter;
+width: 100%;
+position: absolute;
+}
+
+#score {
+
+}
+
+#avg {
+
+}
+
+#max {
+
+}
+
+#min {
+
+
+}
